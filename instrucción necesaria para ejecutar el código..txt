@@ -1,0 +1,18 @@
+1. Abrir el archivo ensembles.py
+
+2. Entre las lineas 39 y 70, se encuentran disponibles todos los dataset, escoger cualquiera, 
+esta incluido iris.
+
+3. En la linea 526 esta la región de competencia
+
+"idx, clases, X_tra, y_tra = FilteringRoC(X_train, y_train, k, flagENN = True , flagKNNE = True)"
+
+donde:
+
+#Entradas: datasets X_train, y_train, k, flagENN, flagKNNE
+            # flagENN: True si aplicamos el algoritmo ENN , false sin aplicar algoritmo ENN
+            # flagKNNE: True si aplicamos el algoritmo KNNE, false aplicamos KNN
+
+
+Seleccionar que tipo de flag y darle ejecutar y ya esta...
+
